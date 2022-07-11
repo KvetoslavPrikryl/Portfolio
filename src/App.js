@@ -1,10 +1,22 @@
-import "./index.css"
+import "./index.css";
 import React from "react";
+import {Route, Routes} from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Projects from "./routes/Projects";
 
 function App() {
-  return <div>
-    <h1>App.js</h1>
-  </div>;
+  return (
+    <>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </>
+  );
 }
 
 export default App;
