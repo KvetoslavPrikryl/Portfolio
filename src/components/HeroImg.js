@@ -10,6 +10,7 @@ const HeroIMG = () => {
             <img className="into-img" src={IntroImg} alt="IntroImg"/>
         </div>
         <div className="content">
+            <p>Hi, I am Květoslav Přikryl</p>
             <h1>Fullstek Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
