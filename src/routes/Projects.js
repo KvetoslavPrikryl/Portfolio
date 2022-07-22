@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
-import ProjectCard from '../components/ProjectCard';
+import Work from '../components/Work';
 
 const Projects = () => {
   return <div>
     <Navbar />
-    <ProjectCard />
+    <Work />
     <Footer />
   </div>;
 };
