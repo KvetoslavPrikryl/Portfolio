@@ -1,5 +1,5 @@
 import "./FooterStyles.css"
-import { FaFacebook, FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
 
 import React from 'react'
 
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footer-container">
-            <div className="cont-left">
+            <div className="footer-cont">
                 <div className="location">
                     <FaHome size={20} style={{ color:"white", marginRight:"2rem"}}/>
                     <div>
@@ -25,11 +25,6 @@ const Footer = () => {
                        Kvetoslav.Prikryl1991@gmail.com
                     </h4>
                 </div>
-            </div>
-            <div className="cont-right">
-                <h4>
-                    <FaFacebook size={30} style={{ color:"white", marginRight:"1rem"}}/> 
-                </h4>
             </div>
         </div>
     </div>
