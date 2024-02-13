@@ -5,12 +5,12 @@ import HeroImg2 from '../components/HeroImg2';
 import Skills from '../components/Skills';
 
 const About = () => {
-  return <div>
+  return <main>
     <Navbar />
     <HeroImg2 />
     <Skills />
     <Footer />
-  </div>;
+  </main>;
 };
 
 export default About;

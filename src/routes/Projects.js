@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 import Work from '../components/Work';
 
 const Projects = () => {
-  return <div>
+  return <main>
     <Navbar />
     <Work />
     <Footer />
-  </div>;
+  </main>;
 };
 
 export default Projects;

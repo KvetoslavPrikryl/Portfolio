@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 import Form from '../components/Form';
 
 const Contact = () => {
-  return <div>
+  return <main>
     <Navbar />
     <Form />
     <Footer />
-  </div>;
+  </main>;
 };
 
 export default Contact;

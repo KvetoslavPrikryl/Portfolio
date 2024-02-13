@@ -31,14 +31,14 @@
 .heading .card{
     position: relative;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     transition: ease-in 0.5s;
     border-radius: 30%;
 }
 .heading .card .hero_img{
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
     transition: ease-in 0.5s;
     float: left;
@@ -50,8 +50,9 @@
 .heading .card:hover .hero_img{
     transition: ease-in 0.5s;
     width: 30%;
-    border-radius: 0;
+    border-radius: 50px;
     border: 1px solid white;
+    margin: 10px;
 }
 .heading .card p{
     visibility: hidden;
@@ -60,13 +61,17 @@
     padding-left: 10px;
     font-family: Verdana;
     border-radius: 5px;
+    font-size: 1.1rem;
 }
 .heading .card:hover p{
-    background: white;
-    color: black;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
     visibility: visible;
     transition-delay: 0.5s;
     padding: 1rem;
+    border-radius: 10px;
+    text-align: start;
+    padding: 10px 15px;
 }
 
 @media screen and (max-width:640px) {

@@ -5,20 +5,20 @@ import Hero_img from "../Img/Hero_img.jpg";
 
 const HeroImg2 = () => {
   return (
-    <div className="hero">
+    <section className="hero">
         <div className="into-img">
-            <img className="into-img" src={IntoImg2} alt="IntroImg"/>
+            <img className="into-img" src={IntoImg2} alt="In_to_img"/>
         </div>
         <div className="heading">
-            <div className="card">
+            <article className="card">
                 <img className="hero_img" src={Hero_img} alt="Hero_img"/>
                 <p className="hero_text">
-                    Jmenuji se Květoslav Přikryl. Programování se věnuji cca 2 roky, převážně pogramování v Pythonu. Chodil jsem 8 měsíců do ItStep academie na kurz programování v pythonu. Nejdříve jsem se začal učit HTML a CSS, pak jsem se zaměřil na Python, kde programuji jednoduché aplikace. Pokud by se pro stejný účel použil smysluplný text, bylo by těžké hodnotit pouze vzhled, aniž by se pozorovatel nechal svést ke čtení obsahu. Pokud by byl naopak použit nesmyslný, ale pravidelný text (např. opakování „asdf asdf asdf…“), oko by při posuzování vzhledu bylo vyrušováno pravidelnou strukturou textu, která se od běžného textu liší. Text lorem ipsum na první pohled připomíná běžný text, slova jsou různě dlouhá, frekvence písmen je podobná běžné řeči, interpunkce vypadá přirozeně atd.
+                    Jmenuji se Květoslav Přikryl. Programování můj koníček. Programiji vždy, když mám trochu času po dobu cca 4let. Absolvoval jsem kurz Programováýní v Pythonu na StepIt akademii a automatizovaného testování v Pythonu na BeeIt akademii. Nejdříve jsem se začal učit HTML a CSS, pak jsem se zaměřil na Python, kde programuji jednoduché aplikace. Tvořím také webové stránky pomocí PHP, jQuery a React. 
                 </p>
-            </div>
+            </article>
             
         </div>
-    </div>
+    </section>
   );
 };
 

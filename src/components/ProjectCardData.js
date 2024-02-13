@@ -1,10 +1,10 @@
-import pro1 from "../Img/Houmr 404.jpg" ;
+import pro1 from "../Img/Projects/Logo.jpg" ;
 
 const ProjectCradData = [
     {
         imgsrc: pro1,
-        title : "Titulek",
-        text: "Okecávání",
+        title : "Sweet Caramel Rose",
+        text: "Chovatelská stanice pro psy a psí salón.",
         view: "odkaz na stránku!"
     }
 ];
