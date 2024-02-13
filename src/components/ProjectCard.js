@@ -1,7 +1,6 @@
 import "./ProjectCardStyles.css";
 
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const ProjectCard = (props) => {
   return (
@@ -12,7 +11,7 @@ const ProjectCard = (props) => {
         <p>{props.text}</p>
       </div>
       <div className="pro-btns">
-        <NavLink to={props.view} className="btn">Odkaz</NavLink>
+        <a target="blank" href={props.view} className="btn">Odkaz</a>
       </div>
     </article>
   )
