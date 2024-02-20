@@ -54,9 +54,22 @@
     .hero .content{
         left:50%;
     }
+    .hero .content h1{
+        font-size: 3rem;
+    }
     .content .btn{
         display: inline;
         margin: 2rem;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero .content{
+        top: 50%;
+    }
+    .content .btn{
+        display: block;
+        width: 50%;
     }
 }
