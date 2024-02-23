@@ -13,7 +13,7 @@ const HeroImg2 = () => {
             <article className="card">
                 <img className="hero_img" src={Hero_img} alt="Hero_img"/>
                 <p className="hero_text">
-                    Jmenuji se Květoslav Přikryl. Programování můj koníček. Programiji vždy, když mám trochu času po dobu cca 4let. Absolvoval jsem kurz Programováýní v Pythonu na StepIt akademii a automatizovaného testování v Pythonu na BeeIt akademii. Nejdříve jsem se začal učit HTML a CSS, pak jsem se zaměřil na Python, kde programuji jednoduché aplikace. Tvořím také webové stránky pomocí PHP, jQuery a React. 
+                    Jmenuji se Slávek Přikryl. Programování můj koníček. Programuji vždy, když mám trochu času po dobu cca 4let. Nejdříve jsem se začal učit HTML a CSS, pak jsem se zaměřil na Python. Absolvoval jsem kurz Programování v Pythonu na StepIt akademii a automatizovaného testování v Pythonu na BeeIt akademii. Teď programuji jednoduché aplikace v pythonu. Tvořím také webové stránky pomocí PHP, jQuery a React. 
                 </p>
             </article>
             

@@ -8,7 +8,7 @@ import ProjectCradData from "./ProjectCardData";
 const Work = () => {
   return (
     <section className="work-container">
-        <h1 className="project-heading">Projects</h1>
+        <h1 className="project-heading">Projekty</h1>
         <div className="project-container">
           {ProjectCradData.map((val, ind) =>{
             return (

@@ -10,10 +10,10 @@ const HeroIMG = () => {
             <img className="into-img" src={IntroImg} alt="IntroImg"/>
         </div>
         <article className="content">
-            <p>Ahoj, jmenuji se <span className="myName">Slávek Přikryl</span></p>
+            <p><span className="myName">Slávek Přikryl</span></p>
             <h1>Fullstek Developer</h1>
             <div className="buttons-section">
-                <Link to="/projects" className="btn">Projekty</Link>
+                <Link to="/projects" className="btn pulse">Projekty</Link>
                 <Link to="/contact" className="btn">Kontakt</Link>
             </div>
         </article>
