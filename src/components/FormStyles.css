@@ -1,3 +1,7 @@
+.form p{
+    text-align: center;
+    color : rgb(131, 238, 128);
+}
 label{
     color:white;
     margin-bottom: 0.5rem;
@@ -9,6 +13,7 @@ form{
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
+    color: #f4f4f4;
 }
 form input, form textarea{
     margin-bottom: 1rem;

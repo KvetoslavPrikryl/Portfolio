@@ -1,10 +1,12 @@
 import "./FormStyles.css"
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 function Form () {
 
   const form = useRef();
+
+  const [resultSendEmail, setResultSendEmail ] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,6 +14,7 @@ function Form () {
     emailjs.sendForm('service_0mi3aa8', 'template_nqs4exi', form.current, 'KFlH3thsHkyrK_Cmb')
       .then((result) => {
           console.log(result.text);
+          setResultSendEmail("Email byl úspěšně odeslán");
       }, 
       (error) => {
           console.log(error.text);
@@ -20,6 +23,7 @@ function Form () {
   };
   return (
     <div className="form">
+      <p>{resultSendEmail}</p>
       <form ref={form} onSubmit={sendEmail}>
         <label>Vaše jméno:</label>
         <input type="text" name="user_name"></input>
