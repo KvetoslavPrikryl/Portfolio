@@ -26,13 +26,13 @@ function Form () {
       <p>{resultSendEmail}</p>
       <form ref={form} onSubmit={sendEmail}>
         <label>Vaše jméno:</label>
-        <input type="text" name="user_name"></input>
+        <input type="text" name="user_name" required></input>
         <label>Email:</label>
-        <input type="text" name="user_email"></input>
+        <input type="text" name="user_email" required></input>
         <label>Předmět:</label>
         <input type="text" name="subject"></input>
         <label>Zpráva:</label>
-        <textarea rows="6" placeholder="Sem napiště Vaši zprávu:" name="message"/>
+        <textarea rows="6" placeholder="Sem napiště Vaši zprávu:" name="message" required/>
         <button className="btn">Odeslat</button>
       </form>
     </div>
